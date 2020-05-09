@@ -16,10 +16,9 @@ public class Registro {
         this.Apellido = Apellido;
         this.Correo = Correo;
         this.Contraseña = Contraseña;
-//       System.out.println("USUARIO REGISTRADO");
     }
 
-    public Registro()  {
+    public Registro() {
 
     }
 
@@ -37,12 +36,12 @@ public class Registro {
         //"jose123";
         Contraseña = teclado.next();
         System.out.println("");
-        System.out.println("               LOS DATOS DE SU REGISTRO SON: \n                       Nombre: " + Nombre + "\n                     Apellido: " + Apellido + 
-                "\n                       Correo: " + Correo + "\n                   Contraseña: "+ Contraseña);
+        System.out.println("               LOS DATOS DE SU REGISTRO SON: \n                       Nombre: " + Nombre + "\n                     Apellido: " + Apellido
+                + "\n                       Correo: " + Correo + "\n                   Contraseña: " + Contraseña);
+        System.out.println();
         System.out.println("                     USUARIO REGISTRADO");
         System.out.println();
-        
-        
+
     }
 
 }

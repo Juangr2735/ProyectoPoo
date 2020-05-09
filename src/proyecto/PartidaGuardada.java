@@ -33,12 +33,6 @@ Scanner teclado=new Scanner (System.in);
         
         }
 
-//        if (Nombre != "PARTIDA1" || Contraseña != "Jose123") {
-//            System.out.println("El sistema no detectó una partida guardada con este nombre, revise el nombre o la contraseña");
-//        } else if (Nombre == "PARTIDA1" || Contraseña == "Jose123") {
-//            System.out.println("BIENVENIDO DE NUEVO A LA PARTIDA");
-//        }
-
     }
 
 }

@@ -31,7 +31,7 @@ public class PROYECTO {
             System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
             System.out.println("                  Por favor Diligencie los siguientes datos:                               ");
             Registro User = new Registro();
-            //"joseAcosta@gmail.com";
+            //"joseacosta@gmail.com";
             //"jose123";
             User.Registrar();
 
@@ -49,7 +49,7 @@ public class PROYECTO {
             System.out.println("                                     INICIA SESION                                            ");
             System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
             InicioSesion User1 = new InicioSesion();
-            //"jose21365@gmail.com";
+            //"joseacosta@gmail.com";
             //"jose123";
             User1.IniciarSesion();
             System.out.println("                                   ¿QUE DESEA HACER?                                      ");

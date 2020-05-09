@@ -6,9 +6,7 @@ public class Administrador extends Registro {
     String Apellido; 
     int Codigo;
     String Rol; 
-    
-    
-    
+     
     public Administrador (String Nombre,String Apellido,int Codigo,String Rol){
     this.Nombre=Nombre;
     this.Apellido=Apellido;
@@ -25,11 +23,6 @@ public class Administrador extends Registro {
         System.out.println("         El administrador "+Nombre+ " "+Apellido+" con codigo codigo "+Codigo+ " y el rol de: "+Rol );
         System.out.println("                            le ha asignado su id de la cuenta numero: "+Numero);
         System.out.println();
-     
     }
-    
-    
-    
-    
     
 }
