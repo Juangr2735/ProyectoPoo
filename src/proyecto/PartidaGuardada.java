@@ -17,15 +17,17 @@ Scanner teclado=new Scanner (System.in);
     public void IngresaPartida() {
         String PartidaG= "Partida1"; 
         String Contra= "Jose123";
-        System.out.print("Digite el nombre de la partida:");
+        System.out.println("                                INICIO SESION PARTIDA");
+        System.out.print("                      Digite el nombre de la partida:");
         Nombre=teclado.next();
-        System.out.print("Digite la contraseña: ");
+        System.out.print("                           Digite la contraseña: ");
         Contraseña=teclado.next();
         if (PartidaG.equals(Nombre) && Contra.equals(Contraseña)) {
-            System.out.println("BIENVENIDO DE NUEVO A LA PARTIDA");
+            System.out.println("                          BIENVENIDO DE NUEVO A LA PARTIDA");
+            System.out.println("                                  ENTRANDO AL JUEGO...");
         }
         else{
-             System.out.println("El sistema no detectó una partida guardada con este nombre, revise el nombre o la contraseña");
+             System.out.println("       El sistema no detectó una partida guardada con este nombre, revise el nombre o la contraseña");
         
         }
 

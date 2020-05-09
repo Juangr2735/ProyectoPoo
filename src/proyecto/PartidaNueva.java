@@ -20,45 +20,45 @@ Scanner teclado=new Scanner (System.in);
     }
 
     public void NuevaPartida() {
-        System.out.println("CREAR UNA NUEVA PARTIDA");
+        System.out.println("                                     CREAR UNA NUEVA PARTIDA");
         
-        System.out.print("Digite un nombre para la partida: ");
+        System.out.print("                              Digite el nombre para la partida: ");
 //         "Partida1"
         Nombre=teclado.next(); 
-        System.out.println("Nombre Seleccionado");
+        System.out.println("                                    Nombre Seleccionado");
         
-        System.out.print("Digite una contraseña para la partida: ");
+        System.out.print("                            Digite una contraseña para la partida: ");
        // Jose123
         Contraseña=teclado.next();
-        System.out.println("Contraseña Guardada");
+        System.out.println("                                    Contraseña Guardada");
         
         String difi1 ="Facil";
              String difi2 = "Intermedio";
         String difi3="Dificil"; 
         
-        System.out.print("Digite la dificultad que quiere en la partida,Facil,intermedio,Dificil : ");
+        System.out.print("                        Digite la dificultad que quiere en la partida\n                                 Facil,intermedio,Dificil : ");
         Dificultad=teclado.next();
 
         if (difi1.equalsIgnoreCase(Dificultad) || difi2.equalsIgnoreCase(Dificultad) || difi3.equalsIgnoreCase(Dificultad)) {
-            System.out.println("Dificultad Seleccionada");
+            System.out.println("                                    Dificultad Seleccionada");
         }
         else{
-        System.out.println("Dificultad incorrecta digite una de las 3 dificultades permitidas");
+        System.out.println("                     Dificultad incorrecta digite una de las 3 dificultades permitidas");
         }
 
         String T1="Online";
         String T2= "Offline";
-        System.out.print("Digite el tipo de juego que quiere seleccionar para la partida, Online/Offline: ");
+        System.out.print("                    Digite el tipo de juego que quiere seleccionar para la partida,\n                                      Online/Offline: ");
         
         Tipo=teclado.next();
         
         
         if (T1.equalsIgnoreCase(Tipo) || T2.equalsIgnoreCase(Tipo)) {
 
-            System.out.println("Tipo de juego seleccionado");
+            System.out.println("                                   Tipo de juego seleccionado");
         }
         else{
-        System.out.println("Tipo incorrecto, Seleccione una de los dos tipos");
+        System.out.println("                                        Tipo incorrecto, Seleccione una de los dos tipos");
         }
         
         
@@ -71,6 +71,7 @@ Scanner teclado=new Scanner (System.in);
         System.out.println("Dificultad de la partida: " + Dificultad);
         System.out.println("Tipo de partida: " + Tipo);
         System.out.println("Contraseña de partida: " + Contraseña);
+        System.out.println("                                             ENTRANDO AL JUEGO...");
 
     }
 

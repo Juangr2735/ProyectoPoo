@@ -4,20 +4,35 @@ public class PROYECTO {
     
     public static void main(String[] args) {
          Scanner teclado= new Scanner (System.in);
-           System.out.println("BIENVENIDO AL MEJOR JUEGO \n¿QUE DESEA HACER?");
+         
+         Administrador Admin1= new Administrador ("Kevin", "Beltran", 589712, "Organizador de cuentas"); 
+        
+         System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
+         System.out.println(" * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
+         System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
+          System.out.println(" * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
+         System.out.println("                             BIENVENIDO AL MEJOR JUEGO                                 ");
+         System.out.println("                             EL TERROR DEL GRAN SALTO                                  ");
+         System.out.println(" * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
+         System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
+         System.out.println(" * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
+         System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
            int opcion,op;
-           
-           System.out.println("1/Registrarme\n2/ Iniciar sesion");
-        System.out.print("DIGITE UNA OPCION:");
-        opcion = teclado.nextInt();
+           System.out.println("                              ¿QUE DESEA HACER?                                      ");
+           System.out.println("             1/Registrarme                         2/ Iniciar sesion                ");
+        System.out.print("                              DIGITE UNA OPCION:");opcion = teclado.nextInt();
          if(opcion==1){
-             System.out.println("REGISTRAR COÑO");
+             System.out.println();
+             System.out.println("                           Bienvenido al registro                                   ");
+              System.out.println("                  Por favor Diligencie los siguientes datos:                               ");
          Registro User =new Registro();
         //"joseAcosta@gmail.com";
         //"jose123";
         User.Registrar(); 
         
-         SeleccionPersonaje Edinson = new SeleccionPersonaje ();
+        Admin1.AdminAsignado();
+        
+        SeleccionPersonaje Edinson = new SeleccionPersonaje ();
         Edinson.Seleccion();
          
         PartidaNueva User2= new PartidaNueva (); 
@@ -25,13 +40,15 @@ public class PROYECTO {
         
          }
            else if (opcion==2){
-                System.out.println("INICIA SESION ");
+               System.out.println();
+                System.out.println("                                     INICIA SESION                                            ");
            InicioSesion User1= new InicioSesion(); 
         //"jose21365@gmail.com";
           //"jose123";
         User1.IniciarSesion();
-        
-           System.out.print("QUE DESEA HACER?\n1-Cargar una partida\n2- Crear una partida:");
+           System.out.println("                                   ¿QUE DESEA HACER?                                      ");
+           System.out.println("            1/Cargar una partida                         2/ Crear una partida               ");
+           System.out.print("                                 Digite una opcion:");
             op=teclado.nextInt(); 
            if (op==1){
             PartidaGuardada User3= new PartidaGuardada(); 
@@ -47,16 +64,30 @@ public class PROYECTO {
            
            
            }
-             System.out.println("ENTRANDO AL JUEGO.");
+            
            }
         
         
-        System.out.println("F");
        
         
-        
-        
        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
 //        Scanner teclado= new Scanner (System.in);
 //        

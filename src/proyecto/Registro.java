@@ -19,25 +19,25 @@ public class Registro {
 //       System.out.println("USUARIO REGISTRADO");
     }
 
-    public Registro() {
+    public Registro()  {
 
     }
 
     public void Registrar() {
+        System.out.println();
 
-        System.out.print("Digite su Nombre: ");
+        System.out.print("                 Digite su Nombre:");
         Nombre = teclado.next();
-        System.out.print("Digite su apellido: ");
+        System.out.print("                 Digite su apellido: ");
         Apellido = teclado.next();
-       
-        
-        System.out.print("Digite su correo: ");
+        System.out.print("                 Digite su correo: ");
         //"jose21365@gmail.com";
         Correo = teclado.next();
-        System.out.print("Digite su Contraseña: ");
+        System.out.print("                 Digite su Contraseña: ");
         //"jose123";
         Contraseña = teclado.next();
-        System.out.println("Los datos del registro son: \nNombre: " + Nombre + "\nApellido: " + Apellido + "\nCorreo: " + Correo + "\nContraseña: "+ Contraseña);
+        System.out.println("");
+        System.out.println("LOS DATOS DE SU REGISTRO SON: \nNombre: " + Nombre + "\nApellido: " + Apellido + "\nCorreo: " + Correo + "\nContraseña: "+ Contraseña);
         System.out.println("USUARIO REGISTRADO");
         System.out.println();
         

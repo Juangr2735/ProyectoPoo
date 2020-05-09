@@ -22,21 +22,22 @@ public class InicioSesion {
         
         boolean salir= false;
         
-        String correo1 ="joseAcosta@gmail.com";
+        String correo1 ="joseacosta@gmail.com";
         String contraseña1= "jose123";
         
-        System.out.print("Digite su correo: ");
+        System.out.print("                        Digite su correo: ");
         //"jose21365@gmail.com";
         Correo= teclado.next();
-        System.out.print("Digite su contraseña: ");
+        System.out.print("                        Digite su contraseña: ");
         //"jose123";
         Contraseña= teclado.next();
     if (correo1.equals(Correo) && contraseña1.equals(Contraseña )){
-        System.out.println("Correo Y Contraseña Correctos BIENVENIDOS");
+        System.out.println("                     Correo Y Contraseña Correctos BIENVENIDOS");
+        System.out.println();
     
     }
     else {
-        System.out.println("Correo y/o Contraseña Incorrectos, ACCESO DENEGADO." );
+        System.out.println("              Correo y/o Contraseña Incorrectos, ACCESO DENEGADO." );
         salir=true;
     }
     
