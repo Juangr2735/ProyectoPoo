@@ -6,7 +6,7 @@ public class PROYECTO {
          Scanner teclado= new Scanner (System.in);
          
          Administrador Admin1= new Administrador ("Kevin", "Beltran", 589712, "Organizador de cuentas"); 
-        
+     
          System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
          System.out.println(" * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
          System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
@@ -23,7 +23,9 @@ public class PROYECTO {
         System.out.print("                              DIGITE UNA OPCION:");opcion = teclado.nextInt();
          if(opcion==1){
              System.out.println();
+             System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
              System.out.println("                           Bienvenido al registro                                   ");
+             System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
               System.out.println("                  Por favor Diligencie los siguientes datos:                               ");
          Registro User =new Registro();
         //"joseAcosta@gmail.com";
@@ -41,7 +43,9 @@ public class PROYECTO {
          }
            else if (opcion==2){
                System.out.println();
+               System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
                 System.out.println("                                     INICIA SESION                                            ");
+                System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
            InicioSesion User1= new InicioSesion(); 
         //"jose21365@gmail.com";
           //"jose123";

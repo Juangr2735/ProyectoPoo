@@ -15,7 +15,9 @@ public SeleccionPersonaje(){
 
 }
 public void Seleccion(){
+    System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
     System.out.println("                                           PERSONAJES                                   ");
+    System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
     System.out.println("         Edinson               Gabriela                   David                   Jency ");
 System.out.print("                Por favor Digite El nombre del personaje que quiere elegir: ");
     

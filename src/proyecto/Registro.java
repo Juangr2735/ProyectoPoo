@@ -37,8 +37,9 @@ public class Registro {
         //"jose123";
         Contraseña = teclado.next();
         System.out.println("");
-        System.out.println("LOS DATOS DE SU REGISTRO SON: \nNombre: " + Nombre + "\nApellido: " + Apellido + "\nCorreo: " + Correo + "\nContraseña: "+ Contraseña);
-        System.out.println("USUARIO REGISTRADO");
+        System.out.println("               LOS DATOS DE SU REGISTRO SON: \n                       Nombre: " + Nombre + "\n                     Apellido: " + Apellido + 
+                "\n                       Correo: " + Correo + "\n                   Contraseña: "+ Contraseña);
+        System.out.println("                     USUARIO REGISTRADO");
         System.out.println();
         
         

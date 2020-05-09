@@ -31,7 +31,7 @@ public class InicioSesion {
         System.out.print("                        Digite su contraseña: ");
         //"jose123";
         Contraseña= teclado.next();
-    if (correo1.equals(Correo) && contraseña1.equals(Contraseña )){
+    if (correo1.equalsIgnoreCase(Correo) && contraseña1.equals(Contraseña )){
         System.out.println("                     Correo Y Contraseña Correctos BIENVENIDOS");
         System.out.println();
     

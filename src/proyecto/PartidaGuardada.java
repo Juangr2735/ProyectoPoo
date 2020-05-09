@@ -16,13 +16,15 @@ Scanner teclado=new Scanner (System.in);
 
     public void IngresaPartida() {
         String PartidaG= "Partida1"; 
-        String Contra= "Jose123";
+        String Contra= "jose123";
+        System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
         System.out.println("                                INICIO SESION PARTIDA");
+        System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
         System.out.print("                      Digite el nombre de la partida:");
         Nombre=teclado.next();
         System.out.print("                           Digite la contraseña: ");
         Contraseña=teclado.next();
-        if (PartidaG.equals(Nombre) && Contra.equals(Contraseña)) {
+        if (PartidaG.equalsIgnoreCase(Nombre) && Contra.equals(Contraseña)) {
             System.out.println("                          BIENVENIDO DE NUEVO A LA PARTIDA");
             System.out.println("                                  ENTRANDO AL JUEGO...");
         }

@@ -22,8 +22,8 @@ public class Administrador extends Registro {
      Random rand = new Random(); 
         Numero= rand.nextInt(500); 
         
-        System.out.println("El administrador "+Nombre+ " "+Apellido+" con codigo codigo "+Codigo+ " y el rol de: "+Rol );
-        System.out.println("le ha asignado su id de la cuenta numero: "+Numero);
+        System.out.println("         El administrador "+Nombre+ " "+Apellido+" con codigo codigo "+Codigo+ " y el rol de: "+Rol );
+        System.out.println("                            le ha asignado su id de la cuenta numero: "+Numero);
         System.out.println();
      
     }
