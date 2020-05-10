@@ -68,12 +68,13 @@ public class PartidaNueva {
 
     private void MostrarDatos() {
         System.out.println();
+        System.out.println("********************************************************************************************");
         System.out.println("                              LOS DATOS DE LA NUEVA PARTIDA SON:");
         System.out.println("                                Nombre de la partida: " + Nombre);
         System.out.println("                             Dificultad de la partida: " + Dificultad);
         System.out.println("                                     Tipo de partida: " + Tipo);
         System.out.println("                               Contraseña de partida: " + Contraseña);
-        
+        System.out.println("********************************************************************************************");
         System.out.println();
         System.out.println();
         System.out.println("*******************************************************************************************");
