@@ -73,7 +73,12 @@ public class PartidaNueva {
         System.out.println("                             Dificultad de la partida: " + Dificultad);
         System.out.println("                                     Tipo de partida: " + Tipo);
         System.out.println("                               Contraseña de partida: " + Contraseña);
+        
+        System.out.println();
+        System.out.println();
+        System.out.println("*******************************************************************************************");
         System.out.println("                                       ENTRANDO AL JUEGO...");
+         System.out.println("*******************************************************************************************");
 
     }
 

@@ -26,7 +26,12 @@ Scanner teclado=new Scanner (System.in);
         Contraseña=teclado.next();
         if (PartidaG.equalsIgnoreCase(Nombre) && Contra.equals(Contraseña)) {
             System.out.println("                          BIENVENIDO DE NUEVO A LA PARTIDA");
+            
+            System.out.println();
+            System.out.println();
+            System.out.println("****************************************************************************************");
             System.out.println("                                  ENTRANDO AL JUEGO...");
+            System.out.println("****************************************************************************************");
         }
         else{
              System.out.println("       El sistema no detectó una partida guardada con este nombre, revise el nombre o la contraseña");
