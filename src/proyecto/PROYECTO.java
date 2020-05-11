@@ -31,7 +31,7 @@ public class PROYECTO {
             System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
             System.out.println("                  Por favor Diligencie los siguientes datos:                               ");
             Registro User = new Registro();
-            //ssssssssssssssssssss
+            
             User.Registrar();
 
             Admin1.AdminAsignado();
