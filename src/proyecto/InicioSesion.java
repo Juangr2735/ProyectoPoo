@@ -22,10 +22,9 @@ public class InicioSesion {
         String contraseña1= "jose123";
         
         System.out.print("                        Digite su correo: ");
-        //"jose21365@gmail.com";
+       
         Correo= teclado.next();
         System.out.print("                        Digite su contraseña: ");
-        //"jose123";
         Contraseña= teclado.next();
     if (correo1.equalsIgnoreCase(Correo) && contraseña1.equals(Contraseña )){
         System.out.println("                     Correo Y Contraseña Correctos BIENVENIDOS");

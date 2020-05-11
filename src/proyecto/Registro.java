@@ -30,10 +30,8 @@ public class Registro {
         System.out.print("                 Digite su apellido: ");
         Apellido = teclado.next();
         System.out.print("                 Digite su correo: ");
-        //"jose21365@gmail.com";
         Correo = teclado.next();
         System.out.print("                 Digite su Contraseña: ");
-        //"jose123";
         Contraseña = teclado.next();
         System.out.println("");
         System.out.println("               LOS DATOS DE SU REGISTRO SON: \n                       Nombre: " + Nombre + "\n                     Apellido: " + Apellido

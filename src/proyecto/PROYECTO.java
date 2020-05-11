@@ -41,7 +41,7 @@ public class PROYECTO {
 
             PartidaNueva User2 = new PartidaNueva();
             User2.NuevaPartida();
-//fffff
+
         } else if (opcion == 2) {
             System.out.println();
             System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
@@ -70,5 +70,5 @@ public class PROYECTO {
         }
 
     }
-
+/////////////////////////ssssssd
 }

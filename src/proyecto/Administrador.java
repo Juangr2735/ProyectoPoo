@@ -12,7 +12,7 @@ public class Administrador extends Registro {
     this.Apellido=Apellido;
     this.Codigo=Codigo;
    this.Rol=Rol;
-    /////ss
+    
     }
     
     public void AdminAsignado (){
