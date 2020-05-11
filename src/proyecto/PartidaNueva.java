@@ -75,6 +75,8 @@ public class PartidaNueva {
         System.out.println("                                     Tipo de partida: " + Tipo);
         System.out.println("                               Contraseña de partida: " + Contraseña);
         System.out.println("********************************************************************************************");
+        
+         
         System.out.println();
         System.out.println();
         System.out.println("*******************************************************************************************");

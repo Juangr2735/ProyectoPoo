@@ -13,7 +13,6 @@ Scanner teclado=new Scanner (System.in);
     public PartidaGuardada(){
     
     }
-
     public void IngresaPartida() {
         String PartidaG= "Partida1"; 
         String Contra= "jose123";

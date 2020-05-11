@@ -31,8 +31,7 @@ public class PROYECTO {
             System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
             System.out.println("                  Por favor Diligencie los siguientes datos:                               ");
             Registro User = new Registro();
-            //"joseacosta@gmail.com";
-            //"jose123";
+            
             User.Registrar();
 
             Admin1.AdminAsignado();
@@ -49,8 +48,7 @@ public class PROYECTO {
             System.out.println("                                     INICIA SESION                                            ");
             System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
             InicioSesion User1 = new InicioSesion();
-            //"joseacosta@gmail.com";
-            //"jose123";
+            
             User1.IniciarSesion();
             System.out.println("                                   ¿QUE DESEA HACER?                                      ");
             System.out.println("            1/Cargar una partida                         2/ Crear una partida               ");
